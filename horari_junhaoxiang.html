@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis tablas</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"
+</head>
+<body>
+<h1>Horario SMX2</h1>
+<table border="lpx"> <!--agregar un borde de 1 píxel alrededor de una tabla en una página web.-->
+    
+    <thead>
+        <tr> <!--crea una fila en una tabla. Puedes añadir celdas dentro para organizar la información en columnas. Cada <tr> representa una nueva fila.-->
+            <th>Hora</th> <!--HTML crea una celda de encabezado en una tabla. Se utiliza para resaltar y etiquetar el contenido de las columnas o filas-->
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>15:00 - 15:55</td>
+            <td rowspan="2"; class="m4">M4 S.Op.Xa Nuri/Fatima</td> <!--rowspan permite que una celda de una tabla abarque varias filas, facilitando la creación de estructuras más complejas al combinar celdas verticalmente.-->
+            <td rowspan="2"; class="m122">M12.2 Sintesi Gerazzd/Pedro</td>
+            <td rowspan="2"></td>
+            <td rowspan="2"; class="m7">M7 Srvs Pedro</td>
+            <td rowspan="2"; class="m8">M8 Web</td>
+        </tr>
+
+        <tr>
+            <td>15:55 - 16:50</td>
+        </tr>
+    </tbody>
+        <td>16:50 - 17:45</td>
+            <td rowspan="2"; class="m121">M12.1 Sintesi Agnes/Alberto</td>
+            <td rowspan="2"; class="m4">M4 S.Op.Xa Nuri/Fatima</td>
+            <td class="m11">M11 Angles</td>
+            <td class="m121">M12.1 Sintesi Agnes/Alberto</td>
+            <td class="m11">M11 Angles</td>
+        <tr>
+            <td>17:45 - 18:40</td>
+            <td class="m8">M8 Web</td>
+            <td class="m11">M11 Angles</td>
+            <td class="tutoria">Tutoria</td>
+        </tr>
+        <tr>
+            <td>18:40 - 19:10</td>
+            <td colspan="5"; align="center"; class="patio">PATIO</td>
+            <!--colspan permite que una celda de una tabla abarque varias columnas, facilitando la creación de estructuras más complejas al combinar celdas horizontalmente.-->
+            <!--classse se utiliza para asignar estilos a elementos mediante hojas de estilo CSS-->
+        </tr>
+        <tr>
+            <td>19:10 - 20:05</td>
+            <td rowspan="2"; class="m7">M7 Srvs Pedro</td>
+            <td rowspan="2"; class="m6">M6 seguridad</td>
+            <td rowspan="2"; class="m122">M12.2 Sintesi Gerad/Pedro</td>
+            <td class="m7">M7 Srvs Pedro</td>
+            <td>        </td>
+        </tr>
+        <tr>
+            <td>20:05 - 21:00</td>
+        </tr>
+</table>
+        <p>tienes que abrir con css sino no se ven los colores</p>

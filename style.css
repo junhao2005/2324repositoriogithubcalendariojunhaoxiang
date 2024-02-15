@@ -1,0 +1,48 @@
+table{
+    width: 100%;
+     text-align:center;
+     border: 1px solid black;
+     border-collapse: collapse;
+  
+}
+.m4 {
+      background-color: aqua; 
+}
+
+.m122 {
+    background-color: rgba(251, 255, 0, 0.897);
+}
+
+.m7 {
+    background-color: rgb(255, 0, 0);
+}
+
+
+.m6 {
+    background-color: rgb(255, 145, 0);
+}
+
+
+.m8 {
+    background-color: rgb(80, 52, 156);
+}
+
+
+.m11 {
+    background-color: rgb(255, 0, 157);
+}
+
+
+.m121 {
+    background-color: rgba(9, 224, 20, 0.781);
+}
+
+
+.patio {
+    background-color: rgb(88, 95, 95);
+}
+
+
+.tutoria {
+    background-color: rgb(187, 62, 89);
+}
